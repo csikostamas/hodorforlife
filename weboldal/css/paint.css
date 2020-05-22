@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+background-image: url(../backg.jpg);
+background-size: cover;
+}
+.background{	
+	position: relative;
+	top:0;
+	left: 0;
+	width: 100%;
+}
+
+.therock img{
+	top:300px;
+	left: 150px;
+	width: 300px;
+	float:left;
+	position: absolute;
+	border-radius: 70px;
+}
+
+.copypasta{
+	border-radius: 15px;
+	left:700px;
+	top: 300px;
+	right: 200px;
+	position: absolute;
+	background-size: 100%;
+	background-color: #add8e6;
+}
+.copypasta p {
+	font-size: 16px;
+	color:black;
+	font-family: Comic Sans MS;
+}
+.copypasta p li{
+text-decoration:underline;
+}
+.copypasta h1{
+
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.morecopypasta {
+	border-radius: 15px;
+	left:700px;
+	top: 500px;
+	right: 200px;
+	position: absolute;
+	background-size: 20%;
+	background-color: #add8e6;
+
+}
+.morecopypasta p{
+	font-size: 18px;
+	font-family: arial;
+}
+
+
+nav{
+	position: absolute;
+	top: 50px;
+	width:40%;
+	height:75px;
+	background-color: white;
+	border-radius: 50px;
+}
+
+nav p{
+	font-family: clemont;
+	color:black;
+	font-size:30px;
+	line-height: 50px;
+	float:left;
+	padding: 10px  20px;
+}
+nav ul{
+	background-image: url(../hater.jpg);
+	float:left;
+	text-decoration: none;
+}
+
+nav ul li:hover a{
+
+	color:red;
+}
+nav ul li:hover ul li a{
+
+	color:white;
+}
+
+nav ul li{
+	list-style: none;
+	float:left;
+	padding-left:0px;
+	position: relative;
+
+}
+
+nav ul li a{
+	font-family: sans-serif;
+	color:white;
+	font-size:16px;
+	padding: 22px 30px;
+	display:block;
+	text-decoration: none;
+	padding-bottom: 35px;
+	padding-left:30px;
+}
+
+nav ul li ul{
+
+	display:none;
+	position: absolute;
+	background-color: white;
+	padding:0px;
+	border-radius:  0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+	display:block;
+	
+
+	}
+
+nav ul li ul li a{
+	font-family: sans-serif;
+	color:white;
+	font-size:16px;
+	padding: 20px 30px;
+	display:block;
+	text-decoration: none;
+}
+nav ul li ul li a:hover{
+	background-color: gray;
+	transition: 0.5s;
+	border-radius: 0px 0px 4px 4px;
+}
+nav ul li ul li{
+	padding-right: 0px;
+	width: 120px;
+	}
